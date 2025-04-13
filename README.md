@@ -38,31 +38,31 @@ Before you begin, ensure you have met the following requirements:
    cd mern-chat-app
 
 2. Install dependencies for both server and client:
- 
-  # Install server dependencies
-  cd server
-  npm install
-  
-  # Install client dependencies
-  cd ../client
-  npm install
+   ```bash
+   # Install server dependencies
+   cd server
+   npm install
+   
+   # Install client dependencies
+   cd ../client
+   npm install
 
 3. Set up environment variables:
-
-Create a .env file in the server directory with the following variables:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-PORT=5000
+   ```bash
+   Create a .env file in the server directory with the following variables:
+   
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   PORT=5000
 
 4. Start the application:
-
-# From the project root directory:
-
-# Start the server (in one terminal)
-cd server
-npm start
-
-# Start the client (in another terminal)
-cd ../client
-npm start
+   ```bash
+   # From the project root directory:
+   
+   # Start the server (in one terminal)
+   cd server
+   npm start
+   
+   # Start the client (in another terminal)
+   cd ../client
+   npm start
